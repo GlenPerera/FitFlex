@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FitFlex</title>
-    <link href="/src/styles/tailwind.css" rel="stylesheet">
-</head>
-<body>
-    <p class="bg-[yellow]">Hello World</p>
+<?php
+$pagename = "Be Healthy! Be Active..";
+echo "<link rel= stylesheet type=text/css href=mystylesheet.css>";
+echo "<title>".$pagename."</title>";
+echo "<body>";
+include ("headfile.html");
+echo "<p>".$pagename."</p>";
 
-    
-</body>
-</html>
+?>
