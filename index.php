@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FitFlex</title>
-    <link href="/public/css/tailwind.css" rel="stylesheet">
+    <link href="/src/styles/tailwind.css" rel="stylesheet">
 </head>
 <body>
-    <p class="text-bold">Hello World</p>
+    <p class="bg-[yellow]">Hello World</p>
 
     
 </body>
